@@ -3,6 +3,7 @@
 *  **Calibrate** - Use Camera Calibrate Function to get Distortion Matrix
 *   **Undistort** -  Use Computed Distortion Matrix to correct for Distortion
 <img src="CameraCalibrationProcess.png">
+
 *   **Warp** - Use Warping Function to get Bird's eye view 
 <img src="Image_Warp_Process.png">
 *   **Threshold** - Use a combination of static , dynamic thresholding with morph transformations & colorspaces to get thresholded image
