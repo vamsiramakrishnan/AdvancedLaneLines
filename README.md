@@ -20,8 +20,8 @@ A brief description of what was done has been described step by step .
 *   **Unwarp** - Use Inverse Perspective Transform to unwarp the image. 
 <img src="Unwarp_process.png">
 
-*   **Output** - Return the processed frame . 
-<img src="Entire_process.png">
+*   **Output** - Return the processed frame. 
+<img src="Entire_Process.png">
 
 ### Example Images from Each of the video 
 #### Harder Challenge
