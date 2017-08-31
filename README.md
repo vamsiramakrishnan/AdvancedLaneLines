@@ -51,3 +51,28 @@
 * Use B-Channel from the LAB Colorspace to choose Yellow and Shades of Yellow 
 * Use HLS Channel to filter out everything not in range of threshold. "
 <img src= "Detailed_ThreshProcess.png">
+
+
+## Queue Helper Functions
+<img src="Queues.png">
+____________________________________
+* Queues are extremely useful tools for First In First Out queues. 
+* The size of the queues when they are really large can help stabilize values very well in case of noisy conditions
+* The size of the queues can also slow down the speed at which the lanes 
+
+### Fit Functions:
+____________________
+* **Mean Fit** : Get average fit over n-samples specified
+* **Predicted Fit**: Extrapolate fit values if next sample is valid
+* **Last Fit**: Last valid fit in the queue
+
+### Curvature Functions:
+___________________________
+* **Mean Curvature** : Get average curvature over n-samples specified
+* **Predicted Curvature**: Extrapolate curvature values if next sample is valid
+* **Last Curvature**: Last valid curvature in the queue
+
+### Other Functions:
+____
+* **Clear Queues**: Clear the queues completely
+* **Pop Left**: Pop the left most value in the queues 
