@@ -1,3 +1,6 @@
+## Getting Around 
+* The Repository has all the processing done in the file [a relative link](Advanced_Lane_Lines.ipynb)
+A brief description of what was done has been described step by step . 
 ## Video Pipeline
 ### Complete Process Involves
 *  **Calibrate** - Use Camera Calibrate Function to get Distortion Matrix
@@ -76,3 +79,7 @@ ___________________________
 ____
 * **Clear Queues**: Clear the queues completely
 * **Pop Left**: Pop the left most value in the queues 
+
+## Gif Outputs of all three processed videos
+_____
+
