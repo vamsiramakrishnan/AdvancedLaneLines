@@ -1,5 +1,5 @@
 ## Getting Around 
-* The Repository has all the processing done in the file [a relative link](Advanced_Lane_Lines.ipynb)
+* The Repository has all the processing done in the file [Advanced Lane Lines Final](Advanced_Lane_lines_Final.ipynb)
 A brief description of what was done has been described step by step . 
 ## Video Pipeline
 ### Complete Process Involves
@@ -90,4 +90,23 @@ _____
 
 ### Harder Challenge Video
 ![](Harder_Challenge.gif)
+
+### Key Highlights
+____
+* Thresholding uses a combination of Morphological Transformations and Mean , Median , STDEV based dynamic thresholding
+* Lane Width Rationalization and Dynamic Lane Width Updation to deal with optical illusion.
+* State Machine to Handle decision on Found Lanes , and non-found lanes using queues and flags. 
+
+### Challenges
+____
+* Absence of a great road model, absence of a great camera model - The road model would help understand what sort of a curve is sane , what isnt . What colors amount to false positives etc. Similarly the camera model should be designed to dynamically shift field of view and calculate the x and y distances keeping optical illusions in mind. 
+* The result is extremely sensitive to Calibration ( Gains, Thresholds, Queue Lengths , Number of Segments etc.) Find the right combination of all these thresholds needed a plugin like Interactive Python .
+* What works for one scenario may not work very well with the other. Using multiple scenarios for just the three videos would just amount to cheating, so developing a generic concept to handle most scenarios is the toughest part. 
+* These challenges made me appreciate the concepts of deep learning augmenting classic computer vision techniques to process the image mathematically. 
+
+### References
+____
+* Vivek Yadav  - https://github.com/vxy10 ( Blind Search & Masking )
+* Parilo - https://github.com/parilo ( Exploration of Cubic Spline Fit ) 
+*  Nikolas Ent - https://github.com/NikolasEnt ( Lane Width rationalization )
 
