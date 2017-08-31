@@ -9,6 +9,7 @@ A brief description of what was done has been described step by step .
 
 *   **Warp** - Use Warping Function to get Bird's eye view 
 <img src="Image_Warp_Process.png">
+
 *   **Threshold** - Use a combination of static , dynamic thresholding with morph transformations & colorspaces to get thresholded image
 <img src="Threshold_Process.png">
 
@@ -20,7 +21,7 @@ A brief description of what was done has been described step by step .
 <img src="Unwarp_process.png">
 
 *   **Output** - Return the processed frame . 
-<img src="Complete_process.png">
+<img src="Entire_process.png">
 
 ### Example Images from Each of the video 
 #### Harder Challenge
@@ -103,6 +104,7 @@ ____
 * The result is extremely sensitive to Calibration ( Gains, Thresholds, Queue Lengths , Number of Segments etc.) Find the right combination of all these thresholds needed a plugin like Interactive Python .
 * What works for one scenario may not work very well with the other. Using multiple scenarios for just the three videos would just amount to cheating, so developing a generic concept to handle most scenarios is the toughest part. 
 * These challenges made me appreciate the concepts of deep learning augmenting classic computer vision techniques to process the image mathematically. 
+* The entire project was built using global variables , queues and functions without the use of objects to make sure anyone who has just begun coding can read and understand the process easily.
 
 ### References
 ____
