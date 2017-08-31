@@ -3,8 +3,11 @@
 A brief description of what was done has been described step by step.
 * The outputs are [Project Video](ProjectVideoOutput.mp4) , [Challenge Video](ChallengeVideoOutput.mp4), [Harder Challenge Video](HarderChallengeVideoOutput.mp4)
 
+
 ## Video Pipeline
 ### Complete Process Involves
+<img src="Entire_Process.png">
+
 *  **Calibrate** - Use Camera Calibrate Function to get Distortion Matrix
 *   **Undistort** -  Use Computed Distortion Matrix to correct for Distortion
 <img src="CameraCalibrationProcess.png">
@@ -23,7 +26,6 @@ A brief description of what was done has been described step by step.
 <img src="Unwarp_process.png">
 
 *   **Output** - Return the processed frame. 
-<img src="Entire_Process.png">
 
 ### Example Images from Each of the video 
 #### Harder Challenge
@@ -110,7 +112,11 @@ ____
 
 ### References
 ____
+The outputs of these Udacity students were taken as references to better my existing algorithms. Although I referred these algorithms I could manage to deliver my own touch to it and also better the results significantly when compared to the authors whose code I referred. 
+
 * Vivek Yadav  - https://github.com/vxy10 ( Blind Search & Masking )
-* Parilo - https://github.com/parilo ( Exploration of Cubic Spline Fit ) 
-*  Nikolas Ent - https://github.com/NikolasEnt ( Lane Width rationalization )
+* Parilo - https://github.com/parilo ( Exploration of RANSAC Regressor Fit ) 
+* Nikolas Ent - https://github.com/NikolasEnt ( Lane Width rationalization )
+* Ajsmilutin - https://github.com/ajsmilutin ( Image Thresholding )
+
 
