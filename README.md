@@ -19,6 +19,17 @@ A brief description of what was done has been described step by step.
 <img src="Threshold_Process.png">
 
 *   **Extract Pixel Information** - Use Quantity based thresholding to and extract non-zero pixels
+  * **Blind Search** - Look for pixel information throughout the image
+  
+    <img src= "BlindSearch.png">
+    
+    | Left Mask Computation | Right Mask Computation |
+    | --------------------- | ---------------------- |
+    | <img src="Mask_Computation_Example_Left.png"> | <img src="Mask_Computation_Example_Right.png"> |
+    
+  * **Polynomial Search** 
+    <img src="PolynomialSearch.png">
+
 *   **Validate and Fit** - Use Curvature and LaneWidth Sanity mechanisms to check the validity of the two fits obtained for a given frame and decide on whether to use the current fit or use an extrapolated average of the previous fits 
 <img src="Validation_DecisionTree.png">
 *   **Project Fit on to Image ** - Convert the x, y plane points and fit to image plane points and draw polygon on the image.
